@@ -22,6 +22,12 @@
 - [How TO - Toggle Dark Mode][darkMode1]
 - [Dark Mode UI Best Practices][darkMode2]
 
+### Images
+
+- [Pexels][images1]
+- [WebP Converter][images2]
+- [Image Resizer][images3]
+
 [imports1]:[https://www.w3schools.com/css/css_external.asp]
 [imports2]:[https://www.w3schools.com/TAgs/att_script_src.asp]
 [imports3]:[https://fontawesome.com/kits/5860ee4324/setup]
@@ -34,3 +40,6 @@
 [buttons3]:[https://www.geeksforgeeks.org/difference-between-domcontentloaded-and-load-events/]
 [darkMode1]: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
 [darkMode2]: https://www.designstudiouiux.com/blog/dark-mode-ui-design-best-practices/
+[images1]:[https://www.pexels.com/]
+[images2]:[https://www.freeconvert.com/webp-converter]
+[images3]:[https://imageresizer.com/]

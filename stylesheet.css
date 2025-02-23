@@ -1,12 +1,78 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #393E46;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #f2f2f2;
+    color: #393E46;
+    text-decoration: #393E46 underline;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #2974e4;
+    color: #f2f2f2;
+    text-decoration: #f2f2f2 underline;
+  }
+
 body {
     font-family: Arial, 'Times New Roman', Helvetica, Verdana, Geneva, Tahoma, sans-serif;
     background-color: cornflowerblue;
-    color: #FFDAB9;
+    color: #e7e1e1;
+    background: linear-gradient(
+        to bottom, 
+        #3500c4,
+        #f2f2f2
+    );
+    background-attachment: fixed; /* Keeps background static */
+    
 }
 
 .dark-mode {
+    background: none;
     background-color: #121212;
-    color: #e7e1e1;
+    color: #FFDAB9;
+    .topnav {
+        background-color: pink;
+        overflow: hidden;
+      }
+      
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: blue;
+        color: red;
+        text-decoration: purple underline;
+      }
+      
+      /* Add a color to the active/current link */
+      .topnav a.active {
+        background-color: yellowgreen;
+        color: gray;
+        text-decoration: maroon underline;
+      }
 }
 
 h1 {}
@@ -23,13 +89,27 @@ h6 {}
 
 p {}
 
+footer {
+    background: #393E46;
+    color: #e7e7e7;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
 .button1{
     background-color: #2974e4;
     color: #efe9e9;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Display a button shadow */
     border-color: #121212;
     border-radius: 8px;
-    width: 50%;
+    width: auto;
+    padding: 20px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
