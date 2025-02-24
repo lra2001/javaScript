@@ -24,6 +24,8 @@
 
 ### Images
 
-- [Pexels](https://www.pexels.com/)
-- [WebP Converter](https://www.freeconvert.com/webp-converter)
+- [Stock Images from Pexels](https://www.pexels.com/)
+- [Convert image type to WebP](https://www.freeconvert.com/webp-converter)
 - [Image Resizer](https://imageresizer.com/)
+- [Create Logo](https://www.canva.com/)
+- [Convert to favicon](https://favicon.io/favicon-converter/)
