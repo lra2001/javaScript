@@ -1,9 +1,17 @@
-/* Only run script to activate dark mode after html is fully loaded */
+/* Run script only after HTML is fully loaded */
 document.addEventListener("DOMContentLoaded", function () {
-    // Dark mode button
-    const button = document.querySelector(".button1");
-    if (button) {
-        button.addEventListener("click", darkMode);
+    const toggleSwitch = document.getElementById("toggleDarkMode");
+
+    if (toggleSwitch) {
+        // Apply dark mode if toggle is already checked (for page refresh cases)
+        if (toggleSwitch.checked) {
+            document.body.classList.add("dark-mode");
+        }
+
+        // Toggle dark mode on checkbox change
+        toggleSwitch.addEventListener("change", function () {
+            document.body.classList.toggle("dark-mode");
+        });
     }
 
     // Update footer year automatically
@@ -12,8 +20,3 @@ document.addEventListener("DOMContentLoaded", function () {
         yearSpan.textContent = new Date().getFullYear();
     }
 });
-
-/* Function to activate and deactivate dark mode */
-function darkMode() {
-    document.body.classList.toggle("dark-mode");
-}
