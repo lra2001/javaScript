@@ -3,43 +3,27 @@
 ## Resources
 
 ### Imports
-- [CSS External Stylesheet][imports1]
-- [HTML <script> src Attribute][imports2]
-- [Font Awesome][imports3]
+- [CSS External Stylesheet][https://www.w3schools.com/css/css_external.asp]
+- [HTML <script> src Attribute][https://www.w3schools.com/TAgs/att_script_src.asp]
+- [Font Awesome][https://fontawesome.com/kits/5860ee4324/setup]
 
 ### Colors
-- [Complementary Color Schemes][colorScheme1]
-- [Khroma][colorScheme2]
-- [Coolors][colorScheme3]
-- [HEX to RGBA Converter][colorScheme4]
+- [Complementary Color Schemes][https://www.w3schools.com/colors/colors_complementary.asp]
+- [Khroma][https://www.khroma.co/generator]
+- [Coolors][https://coolors.co/6495ed-dbc7be-161925-23395b]
+- [HEX to RGBA Converter][https://codebeautify.org/hex-to-rgba-converter]
 
 ### Buttons
-- [CSS Buttons][buttons1]
-- [JavaScript HTML DOM EventListener][buttons2]
-- [Difference between DOMContentLoaded and load Events][buttons3]
+- [CSS Buttons][https://www.w3schools.com/css/css3_buttons.asp]
+- [JavaScript HTML DOM EventListener][https://www.w3schools.com/js/js_htmldom_eventlistener.asp]
+- [Difference between DOMContentLoaded and load Events][https://www.geeksforgeeks.org/difference-between-domcontentloaded-and-load-events/]
 
 ### Darkmode
-- [How TO - Toggle Dark Mode][darkMode1]
-- [Dark Mode UI Best Practices][darkMode2]
+- [How TO - Toggle Dark Mode][https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp]
+- [Dark Mode UI Best Practices][https://www.designstudiouiux.com/blog/dark-mode-ui-design-best-practices/]
 
 ### Images
 
-- [Pexels][images1]
-- [WebP Converter][images2]
-- [Image Resizer][images3]
-
-[imports1]:[https://www.w3schools.com/css/css_external.asp]
-[imports2]:[https://www.w3schools.com/TAgs/att_script_src.asp]
-[imports3]:[https://fontawesome.com/kits/5860ee4324/setup]
-[colorScheme1]:[https://www.w3schools.com/colors/colors_complementary.asp]
-[colorScheme2]:[https://www.khroma.co/generator]
-[colorScheme3]:[https://coolors.co/6495ed-dbc7be-161925-23395b]
-[colorScheme4]:[https://codebeautify.org/hex-to-rgba-converter]
-[buttons1]:[https://www.w3schools.com/css/css3_buttons.asp]
-[buttons2]:[https://www.w3schools.com/js/js_htmldom_eventlistener.asp]
-[buttons3]:[https://www.geeksforgeeks.org/difference-between-domcontentloaded-and-load-events/]
-[darkMode1]:[https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp]
-[darkMode2]:[https://www.designstudiouiux.com/blog/dark-mode-ui-design-best-practices/]
-[images1]:[https://www.pexels.com/]
-[images2]:[https://www.freeconvert.com/webp-converter]
-[images3]:[https://imageresizer.com/]
+- [Pexels][https://www.pexels.com/]
+- [WebP Converter][https://www.freeconvert.com/webp-converter]
+- [Image Resizer][https://imageresizer.com/]
