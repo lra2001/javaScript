@@ -43,18 +43,18 @@ body {
 
 .dark-mode {
   background: none;
-  background-color: #121212;
+  background-color: #1D191D;
   color: #FFDAB9;
 
   .topnav {
-    background-color: pink;
+    background-color: #2b272b;
     overflow: hidden;
   }
 
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #FFDAB9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -63,16 +63,16 @@ body {
 
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: blue;
-    color: red;
-    text-decoration: purple underline;
+    background-color: #FFDAB9;
+    color: gray;
+    text-decoration: gray underline;
   }
 
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: yellowgreen;
-    color: gray;
-    text-decoration: maroon underline;
+    background-color: #FF8920;
+    color: #FFDAB9;
+    text-decoration: #FFDAB9 underline;
   }
 }
 
