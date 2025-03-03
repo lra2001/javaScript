@@ -12,6 +12,7 @@
 - [Khroma](https://www.khroma.co/generator)
 - [Coolors](https://coolors.co/6495ed-dbc7be-161925-23395b)
 - [HEX to RGBA Converter](https://codebeautify.org/hex-to-rgba-converter)
+- [Canva Color Wheel](https://www.canva.com/colors/color-wheel/)
 
 ### Buttons
 - [CSS Buttons](https://www.w3schools.com/css/css3_buttons.asp)
