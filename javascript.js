@@ -2,16 +2,40 @@
 document.addEventListener("DOMContentLoaded", function () {
     const toggleSwitch = document.getElementById("toggleDarkMode");
 
-    if (toggleSwitch) {
-        // Apply dark mode if toggle is already checked (for page refresh cases)
-        if (toggleSwitch.checked) {
-            document.body.classList.add("dark-mode");
-        }
+    /* Use local storage to ensure user selection remains on Dark/Light Mode */
+    if (localStorage.getItem("darkMode") === "enabled") {
+        document.body.classList.add("dark-mode");
+        if (toggleSwitch) toggleSwitch.checked = true;
+    }
 
-        // Toggle dark mode on checkbox change
+    if (toggleSwitch) {
         toggleSwitch.addEventListener("change", function () {
-            document.body.classList.toggle("dark-mode");
+            if (toggleSwitch.checked) {
+                document.body.classList.add("dark-mode");
+                localStorage.setItem("darkMode", "enabled");
+            } else {
+                document.body.classList.remove("dark-mode");
+                localStorage.setItem("darkMode", "disabled");
+            }
         });
+    }
+
+    /* Check if slideshow exists before running slideshow script */
+
+    let slides = document.getElementsByClassName("mySlides");
+    if (slides.length > 0) {
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
     }
 
     // Update footer year automatically

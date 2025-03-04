@@ -25,6 +25,7 @@
 
 ### Images
 
+- [Slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 - [Stock Images from Pexels](https://www.pexels.com/)
 - [Convert image type to WebP](https://www.freeconvert.com/webp-converter)
 - [Image Resizer](https://imageresizer.com/)
