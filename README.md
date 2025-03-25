@@ -2,10 +2,11 @@
 
 ## Resources
 
-### Imports
+### Code
 - [CSS External Stylesheet](https://www.w3schools.com/css/css_external.asp)
 - [HTML <script> src Attribute](https://www.w3schools.com/TAgs/att_script_src.asp)
 - [Font Awesome](https://fontawesome.com/kits/5860ee4324/setup)
+- [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
 ### Colors
 - [Complementary Color Schemes](https://www.w3schools.com/colors/colors_complementary.asp)
