@@ -1,3 +1,12 @@
+// Open and close form
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+}
+
 /* Run script only after HTML is fully loaded */
 document.addEventListener("DOMContentLoaded", function () {
     const toggleSwitch = document.getElementById("toggleDarkMode");
@@ -18,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 localStorage.setItem("darkMode", "disabled");
             }
         });
-    }
+    }    
 
     /* Check if slideshow exists before running slideshow script */
 
@@ -43,4 +52,5 @@ document.addEventListener("DOMContentLoaded", function () {
     if (yearSpan) {
         yearSpan.textContent = new Date().getFullYear();
     }
+
 });
